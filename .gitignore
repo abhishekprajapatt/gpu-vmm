@@ -1,0 +1,58 @@
+# Build directories
+build/
+cmake_build/
+out/
+
+# CMake cache
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.pro.user
+
+# Binary files
+*.o
+*.a
+*.so
+*.dylib
+*.lib
+*.dll
+*.exe
+
+# Test outputs
+test_results.xml
+*.log
+
+# Benchmark results
+benchmark_results.csv
+benchmark_results.txt
+benchmark_report.txt
+nbody_results.txt
+video_results.txt
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Generated files
+*.pb.cc
+*.pb.h
+
+# Coverage
+*.gcov
+*.gcda
+*.gcno
+coverage_report/
+
+# Temporary files
+*.tmp
+*.bak
