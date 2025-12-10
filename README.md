@@ -146,11 +146,9 @@ gpu-virtual-memory-runtime/
 │   │   └── VirtualMemoryManager.h/cpp
 │   ├── device/
 │   │   └── device_helpers.cu  # CUDA kernels
-│   ├── bench/
-│   │   └── benchmark_app.cpp
-│   └── examples/
-│       ├── nbody_gpu_vm.cpp
-│       └── video_pipeline_sim.cpp
+│   └── bench/
+|       └── benchmark_app.cpp
+│
 ├── tests/
 │   └── vm_tests.cpp
 ├── CMakeLists.txt
@@ -448,8 +446,6 @@ constexpr size_t DEFAULT_TLB_SIZE = 1024;
 .
 ├── CMakeLists.txt              # Build configuration
 ├── README.md                   # This file
-├── DESIGN.md                   # Architecture & design details
-├── USAGE.md                    # Detailed usage guide
 ├── src/
 │   ├── vm/
 │   │   ├── Common.h            # Shared types and utilities
@@ -461,17 +457,10 @@ constexpr size_t DEFAULT_TLB_SIZE = 1024;
 │   │   └── VirtualMemoryManager.h/cpp  # Main API
 │   ├── device/
 │   │   └── device_helpers.cu   # CUDA kernels
-│   ├── bench/
-│   │   └── benchmark_app.cpp   # Microbenchmarks
-│   └── examples/
-│       ├── nbody_gpu_vm.cpp    # N-Body simulation
-│       └── video_pipeline_sim.cpp  # Video processing
+│   └── bench/
+│       └── benchmark_app.cpp   # Microbenchmarks
 ├── tests/
 │   └── vm_tests.cpp            # Unit & integration tests
-├── docs/
-│   ├── DESIGN.md               # Architecture document
-│   ├── USAGE.md                # User guide
-│   └── PERF.md                 # Performance guide
 ├── tools/
 │   └── scripts/
 │       ├── run_bench.sh        # Benchmark runner
