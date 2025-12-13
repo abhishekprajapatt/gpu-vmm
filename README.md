@@ -594,5 +594,3 @@ Energy Conservation: -5.68%
 - Operating Systems textbooks (Tanenbaum, Silberschatz, Stallings)
 
 ---
-
-**Questions?** Open an issue or contact the maintainers.
