@@ -63,8 +63,8 @@ A production-ready, user-space GPU Virtual Memory subsystem prototype in **C++17
 ### Build Instructions
 
 ```bash
-git clone https://github.com/yourusername/gpu-virtual-memory-runtime.git
-cd gpu-virtual-memory-runtime
+git clone https://github.com/abhishekprajapatt/gpu-vmm.git
+cd gpu-vmm
 mkdir build && cd build
 
 # Simulator mode (no GPU required)
@@ -134,7 +134,7 @@ vm.print_stats();
 ## Project Structure
 
 ```
-gpu-virtual-memory-runtime/
+gpu-vmm/
 ├── src/
 │   ├── vm/                  # Core VM library
 │   │   ├── Common.h         # Shared utilities and types
@@ -190,8 +190,8 @@ We welcome contributions! Please follow these guidelines:
 ### 1. Fork and Clone
 
 ```bash
-git clone https://github.com/yourusername/gpu-virtual-memory-runtime.git
-cd gpu-virtual-memory-runtime
+git clone https://github.com/abhishekprajapatt/gpu-vmm.git
+cd gpu-vmm
 ```
 
 ### 2. Create Feature Branch
